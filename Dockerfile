@@ -1,6 +1,6 @@
-FROM ppc64le/alpine:3.4
+FROM ppc64le/alpine:3.7
 
-MAINTAINER Carlos Bernárdez "carlos@z4studios.com"
+MAINTAINER Christian Weiers
 
 # "--no-cache" is new in Alpine 3.3 and it avoid using
 # "--update + rm -rf /var/cache/apk/*" (to remove cache)
