@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM ppc64le/alpine:3.4
 
 MAINTAINER Carlos Bernárdez "carlos@z4studios.com"
 
